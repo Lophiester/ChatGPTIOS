@@ -72,10 +72,18 @@
 		C7AC6CF52B5503EB00697D07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C7AC6CFA2B550AE600697D07 /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7AC6CFA2B550AE600697D07 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
 				C7AC6CE92B5503D800697D07 /* AuthView.swift */,
 				C7AC6CF82B55047E00697D07 /* AuthViewModel.swift */,
 			);
-			path = Views;
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

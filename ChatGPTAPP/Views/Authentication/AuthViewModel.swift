@@ -11,4 +11,8 @@ import Observation
 @Observable class AuthViewModel {
     var emailText : String = ""
     var passwordText : String = ""
+    var iPasswordVisible : Bool = false
+    var isUserExists : Bool = false
+    
+    
 }
