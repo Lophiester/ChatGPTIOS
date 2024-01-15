@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C7AC6CE82B5503D800697D07 /* ChatGPTAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC6CE72B5503D800697D07 /* ChatGPTAPPApp.swift */; };
-		C7AC6CEA2B5503D800697D07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC6CE92B5503D800697D07 /* ContentView.swift */; };
+		C7AC6CEA2B5503D800697D07 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC6CE92B5503D800697D07 /* AuthView.swift */; };
 		C7AC6CEC2B5503D900697D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CEB2B5503D900697D07 /* Assets.xcassets */; };
 		C7AC6CEF2B5503D900697D07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CEE2B5503D900697D07 /* Preview Assets.xcassets */; };
+		C7AC6CF92B55047E00697D07 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AC6CF82B55047E00697D07 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7AC6CE42B5503D800697D07 /* ChatGPTAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AC6CE72B5503D800697D07 /* ChatGPTAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPPApp.swift; sourceTree = "<group>"; };
-		C7AC6CE92B5503D800697D07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7AC6CE92B5503D800697D07 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		C7AC6CEB2B5503D900697D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7AC6CEE2B5503D900697D07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7AC6CF82B55047E00697D07 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +72,8 @@
 		C7AC6CF52B5503EB00697D07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C7AC6CE92B5503D800697D07 /* ContentView.swift */,
+				C7AC6CE92B5503D800697D07 /* AuthView.swift */,
+				C7AC6CF82B55047E00697D07 /* AuthViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AC6CEA2B5503D800697D07 /* ContentView.swift in Sources */,
+				C7AC6CEA2B5503D800697D07 /* AuthView.swift in Sources */,
 				C7AC6CE82B5503D800697D07 /* ChatGPTAPPApp.swift in Sources */,
+				C7AC6CF92B55047E00697D07 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
