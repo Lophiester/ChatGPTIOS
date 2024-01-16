@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7049FA52B56A7ED00F0D94F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7049FA32B56A7ED00F0D94F /* RegistrationView.swift */; };
+		C7049FA62B56A7ED00F0D94F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7049FA42B56A7ED00F0D94F /* RegistrationViewModel.swift */; };
+		C7049FAB2B56A84900F0D94F /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7049FAA2B56A84900F0D94F /* AuthViewModel.swift */; };
 		C724095D2B5551070092839F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C724095C2B5551070092839F /* FirebaseAnalytics */; };
 		C724095F2B5551070092839F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = C724095E2B5551070092839F /* FirebaseAnalyticsOnDeviceConversion */; };
 		C72409612B5551070092839F /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C72409602B5551070092839F /* FirebaseAnalyticsSwift */; };
@@ -44,6 +47,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7049FA32B56A7ED00F0D94F /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		C7049FA42B56A7ED00F0D94F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		C7049FAA2B56A84900F0D94F /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		C760A7942B56207C00784452 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C760A7982B56249000784452 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		C7AC6CE42B5503D800697D07 /* ChatGPTAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7049FA92B56A83400F0D94F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C7049FAA2B56A84900F0D94F /* AuthViewModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		C760A7962B56242300784452 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +117,8 @@
 		C760A79A2B56309700784452 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
+				C7049FA32B56A7ED00F0D94F /* RegistrationView.swift */,
+				C7049FA42B56A7ED00F0D94F /* RegistrationViewModel.swift */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -146,6 +162,7 @@
 		C7AC6CF52B5503EB00697D07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C7049FA92B56A83400F0D94F /* Auth */,
 				C7AC6CFA2B550AE600697D07 /* Login */,
 				C760A79A2B56309700784452 /* Registration */,
 				C760A7962B56242300784452 /* Components */,
@@ -266,9 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AC6CEA2B5503D800697D07 /* LoginView.swift in Sources */,
+				C7049FA62B56A7ED00F0D94F /* RegistrationViewModel.swift in Sources */,
 				C7AC6CE82B5503D800697D07 /* ChatGPTAPPApp.swift in Sources */,
+				C7049FAB2B56A84900F0D94F /* AuthViewModel.swift in Sources */,
 				C760A7992B56249000784452 /* InputView.swift in Sources */,
 				C7AC6CF92B55047E00697D07 /* LoginViewModel.swift in Sources */,
+				C7049FA52B56A7ED00F0D94F /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
