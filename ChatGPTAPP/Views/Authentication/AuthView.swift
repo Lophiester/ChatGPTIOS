@@ -18,15 +18,8 @@ struct AuthView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.blue) // Escolha a cor desejada
             
-            TextField("Email", text: $viewModel.emailText)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 1))
-                .padding(.horizontal, 20)
-            
-            SecureField("Password", text: $viewModel.passwordText)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 1))
-                .padding(.horizontal, 20)
+            InputView(text: $viewModel.emailText, placeholder: "name@exapmle.com")
+            InputView(text: $viewModel.passwordText, placeholder: "password", isSecureField: true)
             
             Button(action: {
                 // Adicione a lógica de login aqui
