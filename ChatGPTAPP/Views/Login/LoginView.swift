@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct AuthView: View {
+struct LoginView: View {
     
-   @State var viewModel = AuthViewModel()
+   @State var viewModel = LoginViewModel()
     
     var body: some View {
         VStack(spacing: 20) {
@@ -39,5 +39,5 @@ struct AuthView: View {
 }
 
 #Preview {
-    AuthView()
+    LoginView()
 }
