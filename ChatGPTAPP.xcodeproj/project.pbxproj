@@ -100,6 +100,13 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		C760A79A2B56309700784452 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
 		C7AC6CDB2B5503D800697D07 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				C7AC6CFA2B550AE600697D07 /* Login */,
+				C760A79A2B56309700784452 /* Registration */,
 				C760A7962B56242300784452 /* Components */,
 			);
 			path = Views;
