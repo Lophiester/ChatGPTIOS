@@ -40,4 +40,4 @@ https://github.com/Lophiester/ChatGPTIOS.git
 ## Under Development
 
 
-This document will be updated as the project development progresses. Thank you for your attention and interest in our ChatGPT project for iOS!
+This document will be updated as the project development progresses. Thank you for your attention and interest in my ChatGPT project for iOS!
